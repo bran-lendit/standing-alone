@@ -1,17 +1,17 @@
 <template>
   <div id="navigation-container">
     <div class="navigation-wrapper">
-      <router-link to="">홀로서기</router-link>
+      <router-link to="/">홀로서기</router-link>
       <div class="navigation-menu">
         <ul>
           <li>
-            <router-link to="">커뮤니티</router-link>
+            <router-link to="/">커뮤니티</router-link>
           </li>
           <li>
-            <router-link to="">스토어</router-link>
+            <router-link to="/store">스토어</router-link>
           </li>
           <li>
-            <router-link to="">전문가</router-link>
+            <router-link to="/">전문가</router-link>
           </li>
         </ul>
       </div>
