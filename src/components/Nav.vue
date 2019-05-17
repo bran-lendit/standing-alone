@@ -5,13 +5,13 @@
       <div class="navigation-menu">
         <ul>
           <li>
-            <router-link to="/">커뮤니티</router-link>
+            <router-link to="/">홈</router-link>
           </li>
           <li>
             <router-link to="/store">스토어</router-link>
           </li>
           <li>
-            <router-link to="/">전문가</router-link>
+            <router-link to="/">커뮤니티</router-link>
           </li>
         </ul>
       </div>
