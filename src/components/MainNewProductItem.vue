@@ -2,6 +2,12 @@
   <div id="main-new-product-item">
     <div v-for="(item, index) in list" :key="index">
       <img :src="item.img" alt="" width="220" height="220">
+      <p class="title">{{item.title}}</p>
+      <p class="price">
+        <span class="arure">{{item.salePercent}}</span>
+        <span>{{item.price}}</span>
+      </p>
+
     </div>
   </div>
 </template>
@@ -40,15 +46,31 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
   #main-new-product-item {
     display: flex;
     flex-wrap: wrap;
     > div {
       display: flex;
+      flex-direction: column;
       > img {
         margin-right: 16px;
         border-radius: 8px;
+      }
+      .title {
+        font-size: 14px;
+        width: 200px;
+        height: 40px;
+        text-align: left;
+        margin-bottom: 2px;
+      }
+      .price {
+        text-align: left;
+        margin: 0px;
+        .arure {
+          color: #35C5F0;
+          padding-right: 4px;
+        }
       }
     }
 

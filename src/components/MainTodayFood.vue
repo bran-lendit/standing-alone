@@ -121,13 +121,13 @@ div.name{
 }
 
 div.for-margin {
-  width: 850px;
+  width: 1000px;
   margin: auto;
 }
 
 div.today-cook {
   text-align: left;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
   
 }
@@ -138,11 +138,11 @@ div.cook-container1 {
 }
 
 div.cook {
-  margin: 5px;
+  margin: 8px;
   border: 1px solid #ccc;
-  width: 200px;
-  height: 300px;
-
+  width: 220px;
+  height: 320px;
+  border-radius: 8px;
 }
 
 div.cook:hover {

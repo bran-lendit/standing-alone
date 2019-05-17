@@ -1,5 +1,5 @@
 <template>
-  <div class="Main">
+  <div class="home">
     <main-header/>
     <main-new-product></main-new-product>
     <main-today-food></main-today-food>

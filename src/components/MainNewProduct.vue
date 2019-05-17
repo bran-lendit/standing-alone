@@ -18,6 +18,7 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-bottom: 36px;
     > p {
       font-size: 20px;
       font-weight: bold;
